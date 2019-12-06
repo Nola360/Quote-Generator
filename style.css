@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: silver;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  /* font-weight: 400; */
+  text-transform: uppercase;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: skyblue;
+  letter-spacing: 1.5px;;
+  flex: 0 0 80%;
+  
+}
+
+#quote-button {
+  background-color: lightblue;
+  /* margin-top: 30px; */
+  color: black;
+  padding: .5rem 2rem;
+  outline: none;
+  border-radius: 2rem;
+  font-family: 'futura';
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#quote-button:hover {
+  background: rgb(228, 228, 228);
+  color: black;
+}
+
+blockquote {
+  background: blue;
+  /* border-left: 30px solid silver; */
+  margin: 1.5rem;
+  padding: .2rem;
+  letter-spacing: 2px;
+}
+
+#quoteAuthor {
+  color: black;
+}
