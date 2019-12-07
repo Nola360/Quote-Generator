@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 
 body {
   min-height: 100vh;
@@ -6,17 +10,27 @@ body {
   align-items: center;
   justify-content: center;
   background: silver;
-  color: white;
-  font-family: 'Bebas Neue', cursive;
+  color: brown;
+  font-family: 'Great Vibes', cursive; 
   /* font-weight: 400; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+}
+
+h2 {
+  font-family: 'Pinyon Script', cursive;
+  
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
 }
 
 .container {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem;
+  
   border-radius: 2rem;
-  background: skyblue;
+  /* background: skyblue; */
   letter-spacing: 1.5px;;
   flex: 0 0 80%;
   
@@ -40,13 +54,21 @@ body {
 }
 
 blockquote {
-  background: blue;
+  /* background: rgb(250, 227, 198); */
+  height: 100px;
+  color: rgb(0, 0, 0);
+  font-family: 'roboto';
+  /* font-family: 'Pinyon Script', cursive; */
+  /* text-transform: capitalize; */
   /* border-left: 30px solid silver; */
-  margin: 1.5rem;
-  padding: .2rem;
+  /* margin: 1.5rem; */
+  /* padding: 1rem; */
   letter-spacing: 2px;
 }
 
 #quoteAuthor {
   color: black;
+  font-family: "roboto";
+  text-transform: uppercase;
+  
 }
